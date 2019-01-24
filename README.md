@@ -9,6 +9,7 @@ Les objectifs :
  - Deux joueurs ----------------------------------------------- ✔️                                                       
  - Start en demandant les noms des joueurs -------------------- ✔️
  - Créer un plateau de neuf cases dénommées respectivement : -- ✔️
+      
       A | B | C  &&  1 | 2 | 3
  - Les joueurs jouent à tour de rôle -------------------------- ✔️
  - Demande au joueur quel emplacement et place son token ------ ✔️
