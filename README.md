@@ -15,7 +15,9 @@ Les objectifs :
  - Propose de relancer une partie -------------------------------- ✗
  - Faire un effort sur la présentation ------------------------------ ✔︎                    
 
-## Getting Started
+
+
+## Infos
 
 Git clone le projet.
 Une fois dans le dossier racine, lances `ruby app.rb`
@@ -29,20 +31,19 @@ Les éléments fonctionnels :
   - Matrice qui affiche correctement les choix des joueurs
   - Jeux réalisé dans un effort d'esthétisme évident !
 
-## À résoudre
+Les éléments à résoudre résoudre : 
   - Condition pour remporter la victoire ou match null
-  - Condition si le joueur fait une erreur de frappe pour recommancer son tour
   - Pouvoir finir ou relancer une partie
 
 
 
-### Prerequisites
+### Prérequis
 
 Toutes les gems nécessaires au bon fonctionnement du jeux sont dans le Gemfile.
 
 
 
-## Authors
+## Auteurs
 
 * **Stéphane, Margaux** - *Travail initial* -
 
