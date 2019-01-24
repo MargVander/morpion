@@ -8,9 +8,22 @@
     end
 
     def perform
-      puts "Bienvienue dans notre morpion hygiènique !"
 
       while true
+        puts ""
+        puts ""
+        puts ""
+        puts ""
+        puts ""
+        puts "    |￣￣￣￣￣￣|"
+        puts "    |     TIC    |"
+        puts "    |     TAC    |"
+        puts "    |     TOE    |"
+        puts "    | ＿＿＿＿＿_| "
+        puts "         ||"
+        puts "  🔥🔥🔥  ||"
+        puts "༼ つ ◕_◕ ༽つ"
+        puts "+:-:+:-:+ ".yellow
         puts "1. Nouvelle partie"
         puts "2. Quittez le jeux."
         params = gets.chomp.to_i
@@ -24,10 +37,9 @@
       when 2
         puts "À bientôt"
         break
-
-      else
+        else
         puts "ce choix n'existe pas merci de réessayer."
+        end
       end
     end
   end
-end
