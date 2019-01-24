@@ -12,7 +12,7 @@ Les objectifs :
  - Les joueurs jouent à tour de rôle ------------------------------- ✔︎
  - Demande au joueur quel emplacement et place son token ------ ✔︎
  - Tourne jusqu'à la victoire ou le match null ---------------------- ✗
- - Propose de relancer une partie --------------------------------- ✗
+ - Propose de relancer une partie -------------------------------- ✗
  - Faire un effort sur la présentation ------------------------------ ✔︎                    
 
 ## Getting Started
