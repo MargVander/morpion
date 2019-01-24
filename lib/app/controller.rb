@@ -29,7 +29,7 @@
 
       while true
         puts ""
-        puts "Morpion n°#{i}".yellow
+        puts "Tour n°#{i}".yellow
         puts ""
 
         # => On demande au joueurs l'emplacement qu'on return dans choice_of_player
@@ -41,6 +41,11 @@
         @view.print_board(params)
 
         i += 1
+        if i > 9
+          puts " "
+          puts "Vous êtes tout deux à égalité !"
+          break
+        end
       end
     end
   end
