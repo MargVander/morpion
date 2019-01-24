@@ -7,6 +7,4 @@
 
 
   Router.new.perform
-
-
-  binding.pry 
+  

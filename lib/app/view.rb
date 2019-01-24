@@ -25,19 +25,17 @@
       puts "    "
     end
 
-    def play_turn(p1, p2)
+    def play_turn(p1, p2, i)
 
-      i = 1
       if i.odd?
       puts "#{p1[0]}, choisis une case :"
       choice_player_one = gets.chomp.downcase
-      i += 1
-      return choice_player_one
-    else
+      return [choice_player_one, "X"]
+    elsif i.even?
       puts "#{p2[1]}, choisis une case :"
       choice_player_two = gets.chomp.downcase
-      i += 1
-      return choice_player_two
+
+      return [choice_player_two, "0"]
     end
 
     end
