@@ -11,7 +11,7 @@
     def game_init
       params = @view.name_player           # => les Noms des joueurs
       player_one = [params.values[0], "X"] # => on récupère l'argument 0 qui est le nom du premier player + son token
-      player_two = [params.values[1], "O"] # => même chose
+      player_two = [params.values[1], "O"] # => meme chose
 
       @player = Player.new(player_one, player_two)
 
@@ -28,19 +28,19 @@
       new_game = BoardCase.new
 
       while true
-      puts ""
-      puts "Morpion n°#{i}".yellow
-      puts ""
+        puts ""
+        puts "Morpion n°#{i}".yellow
+        puts ""
 
-      # => On demande au joueurs l'emplacement qu'on return dans choice_of_player
-      choice_of_player = @view.play_turn(@player.player_one, @player.player_two, i)
+        # => On demande au joueurs l'emplacement qu'on return dans choice_of_player
+        choice_of_player = @view.play_turn(@player.player_one, @player.player_two, i)
 
-      params = new_game.play_turn(choice_of_player)
+        params = new_game.play_turn(choice_of_player)
 
-      # => On print notre nouvelle matrice
-      @view.print_board(params)
+        # => On print notre nouvelle matrice
+        @view.print_board(params)
 
-      i += 1
+        i += 1
       end
     end
   end
