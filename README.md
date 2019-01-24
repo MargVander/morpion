@@ -6,14 +6,14 @@ Cette ligne peut-être soit verticale, soit horizontale, soit en diagonle.
 
 Les objectifs :
 
- - Deux joueurs --------------------------------------------------- ✔️                                                       
- - Start en demandant les noms des joueurs ---------------------- ✔️
- - Créer un plateau de neuf cases dénommées respectivement  --- ✔️
- - Les joueurs jouent à tour de rôle ------------------------------- ✔️
- - Demande au joueur quel emplacement et place son token ------ ✔️
- - Tourne jusqu'à la victoire ou le match null --------------------- ⚡️
- - Propose de relancer une partie -------------------------------- ⚡️
- - Faire un effort sur la présentation ----------------------------- ✨                    
+ - Deux joueurs --------------------------------------------------- ✔︎                                                       
+ - Start en demandant les noms des joueurs ---------------------- ✔︎
+ - Créer un plateau de neuf cases dénommées respectivement  --- ✔︎
+ - Les joueurs jouent à tour de rôle ------------------------------- ✔︎
+ - Demande au joueur quel emplacement et place son token ------ ✔︎
+ - Tourne jusqu'à la victoire ou le match null ---------------------- ✗
+ - Propose de relancer une partie --------------------------------- ✗
+ - Faire un effort sur la présentation ------------------------------ ✔︎                    
 
 ## Getting Started
 
